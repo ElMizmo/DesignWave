@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Design Wave</title>
+  <style>
+    body {
+      background-image: linear-gradient(to bottom right, #a9cdff, #386294, #a9cdff);
+    }
+  </style>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wave {
+      height: 200px;
+      background-image: url(data/fondo3.jpg);
+      background-repeat: no-repeat;
+      background-position: center top;
+      position: relative;
+    }
+
+    .logo {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .logo img {
+      height: 150px;
+      width: 150px;
+    }
+
+    .wave h1 {
+      font-family: 'Copperplate', sans-serif; 
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      top: 50%;
+      position: absolute;
+      color: "black";
+      font-size: 7em;
+      margin: 0;
+      opacity: 1;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .wave:hover h1 {
+      opacity: 1;
+	  color: #242424;
+	  transition: color 0.3s ease-in-out;
+    }
+
+    .button {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .button img {
+      height: 50px;
+      width: 50px;
+    }
+
+    .section {
+      height: 500px;
+      background-color: #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .section p {
+      font-size: 1.2em;
+      margin: 0;
+    }
+
+    .section:hover h2, .section:hover p {
+      color: #3972ad;
+      transition: color 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <div class="wave">
+    <div class="logo">
+      <img src="data\logo.jpg" >
+    </div>
+    <h1>Design Wave</h1>
+    <div class="button">
+		<a href="DesignWave.html">
+      <img src="data\home.png" >
+		</a>
+    </div>
+  </div>
+  <div class="section">
+    <h2> Branding</h2>
+    <img src="data\nosotros.jpg"  width="300px" height="180px">
+	  <img src="data\primerasOficinas.jpg"  width="300px" height="180px">
+	  <img src="data\lugardetrabajo.png"  width="300px" height="180px">
+  </div>
+  
+</body>
+</html>
+	
